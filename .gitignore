@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Virtual envs
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# OS
+.DS_Store
+
+# Outputs, logs, models
+outputs/
+logs/
+models/
+*.pkl
+*.sqlite
+*.db
+
+# Sensitive
+config.env
+secrets.*
