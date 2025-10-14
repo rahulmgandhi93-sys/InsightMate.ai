@@ -23,6 +23,13 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
+try:
+    import matplotlib.pyplot as plt
+    _HAS_MATPLOTLIB = True
+except Exception:
+    plt = None
+    _HAS_MATPLOTLIB = False
+
 # --- Config ---
 MAX_FREE_BYTES = 5 * 1024 * 1024       # 5 MB free cap
 DEFAULT_SAMPLE_ROWS = 5000             # default number of rows to analyze in sampling mode
