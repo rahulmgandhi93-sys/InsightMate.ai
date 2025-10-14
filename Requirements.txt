@@ -1,0 +1,9 @@
+# core
+pandas>=1.5.0
+numpy
+matplotlib
+streamlit
+transformers>=4.20.0
+torch    # optional if model uses PyTorch
+sentence-transformers  # optional if you use embeddings
+python-dotenv
